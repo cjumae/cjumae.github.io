@@ -1,0 +1,28 @@
+pages: [
+  {
+    name: 'Home',
+    url: '/',
+    title: 'Welcome to Zegetech'
+  },
+  {
+    name: 'blog',
+    url: '/blog',
+    title: 'Latest blog post'
+  },
+  {
+    name: 'order',
+    url: '/order',
+    title: 'Pricing and Ordering'
+  },
+  {
+    name: 'about',
+    url: '/about',
+    title: 'About Zegetech'
+  },
+  {
+    name: 'contact',
+    url: '/contact',
+    title: 'contact Zegetech'
+  }
+
+]
