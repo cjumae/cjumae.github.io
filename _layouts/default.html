@@ -13,21 +13,21 @@
 <!doctype html>
 <!--
 
--->
+
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+  <body class="layout-{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
     <div class="initial-content">
       {{ content }}
-    <!--  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <div align="center" style="margin: 1em 0;">
         <ins class="adsbygoogle"
              style="display:block; border-bottom: initial;"
@@ -38,7 +38,7 @@
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
-      -->
+
     </div>
 
     {% if site.search == true %}
@@ -52,7 +52,27 @@
         {% include footer/custom.html %}
         {% include footer/base.html %}
       </footer>
-    </div>
+    </div>-->
+
+    <html lang="en">
+
+  {% include head/base.html %}
+
+  <body>
+
+    {% include header/base.html %}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {% include footer/base.html %}
+
+  </body>
+
+</html>
 
   <!--  {% include scripts.html %}-->
 
