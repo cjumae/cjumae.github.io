@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: default
 title: Home page
 ---
 
-#Generic Fidget Spinner Hand Stress Reliever Decompression Toy
+# Generic Fidget Spinner Hand Stress Reliever Decompression Toy
 
-##Key Features
+### Key Features
 A unique gift for your friends and perfect ornaments for your holiday party
 Lightweight and easy to carry, you can play with it anytime as you like
 A great toy for kids and adults to relieve stress and anxiety

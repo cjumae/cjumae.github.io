@@ -1,6 +1,6 @@
 ---
-layout: post
-strapline: Latest blogpost
+layout: default
+#trapline: Latest blogpost
 title: blogpost page
 permalink: /blog/
 author: cjumae

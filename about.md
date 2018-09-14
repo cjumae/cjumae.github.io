@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 strapline: Verified Fidget Spinners sellers
 title: About
 permalink: /about/
